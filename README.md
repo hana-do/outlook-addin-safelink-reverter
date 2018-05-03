@@ -1,3 +1,28 @@
+Submission: SafeLink Reverter
+===========================
+Done
+------------
+- Cross-platform Outlook add-in to convert safe links to original links
+- Side panel to show results (number of links in email, safe links converted, link texts)
+- Convert safe links to original links
+- Tested locally (the button took a minute to appear but it worked)
+
+Not Done
+------------
+- Replace safe links with original links in the email (I am still stuck on modifying the DOM of the email versus the DOM of my add-in side panel)
+- Implement other safe link decryption methods 
+- Test the add-in on desktop and mobile
+- Deploy the add-in to a web server
+
+Result
+------------
+You can see in the screenshot that there is a button to click on to use the add-in. Once the button is clicked, the side bar will appear along with the results. You can see at the left bottom corner that the link embedded in the text is still the safe link as I have yet to figure that out.
+
+Reference
+------------
+https://docs.microsoft.com/en-us/outlook/add-ins/quick-start?tabs=visual-studio
+
+
 Assignment: JavaScript Game
 ===========================
 
