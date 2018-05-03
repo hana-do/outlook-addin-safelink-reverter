@@ -18,9 +18,18 @@ Result
 ------------
 You can see in the screenshot that there is a button to click on to use the add-in. Once the button is clicked, the side bar will appear along with the results. You can see at the left bottom corner that the link embedded in the text is still the safe link as I have yet to figure that out.
 
+![Screenshot](https://github.com/it483-spring-18/assignment-15-javascript-game-hana-do/blob/master/Screenshot.png)
+
 Reference
 ------------
 https://docs.microsoft.com/en-us/outlook/add-ins/quick-start?tabs=visual-studio
+
+
+
+
+
+
+
 
 
 Assignment: JavaScript Game
