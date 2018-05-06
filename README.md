@@ -1,4 +1,4 @@
-Submission: SafeLink Reverter
+Outlook Add-in: SafeLink Reverter
 ===========================
 Work
 ------------
