@@ -10,7 +10,7 @@ Work
 Not Work
 ------------
 - Replace safe links with original links in the email (I am still stuck on modifying the DOM of the email versus the DOM of my add-in task pane --> UPDATE: cannot modify the DOM in Read mode as bound by Office object so users only have one choice to click on the links in the task pane)
-- Convert links in plain text emails as Outlook does something strange to the body text and JavaScript methods like indexOf, substr, search don't work as we would expect
+- Convert links in plain text emails in local Outlook (not Outlook Web App) as Outlook does something strange to the body text and JavaScript methods like indexOf, substr, search don't work as we would expect 
 
 Future
 ------------
