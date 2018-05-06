@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <App xmlns="http://schemas.microsoft.com/sharepoint/2012/app/manifest"
      Name="SafelinkReverter"
-     ProductID="{985b91f7-217d-4a37-8291-92479e654ade}"
+     ProductID="{473b177c-4a2f-492b-81e9-a1201f40b031}"
      Version="1.0.0.0"
      SharePointMinVersion="15.0.0.0"
 >

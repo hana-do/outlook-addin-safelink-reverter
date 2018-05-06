@@ -82,15 +82,15 @@
         <bt:Url id="MyTaskPane" DefaultValue="https://localhost:44388/Home.html"/>
       </bt:Urls>
       <bt:ShortStrings>
-        <bt:String id="MyButtonLabel" DefaultValue="Launch Safe Link Reverter"/>
+        <bt:String id="MyButtonLabel" DefaultValue="Revert Safe-Link"/>
         <bt:String id="MyButtonTooltip"  DefaultValue="Launch the add-in"/>
-        <bt:String id="MyGroupLabel" DefaultValue="Safe Link Reverter"/>
+        <bt:String id="MyGroupLabel" DefaultValue="Safe-Link Reverter"/>
         <bt:String id="MyButtonSuperTipTitle" DefaultValue="Launch the add-in"/>
       </bt:ShortStrings>
       <bt:LongStrings>
-        <bt:String id="MyDescription" DefaultValue="Safe Link Reverter reverts safe links to original links."/>
-        <bt:String id="MyGroupTip" DefaultValue="Safe Link Reverter"></bt:String>
-        <bt:String id="MyButtonSuperTipDescription" DefaultValue="Safe Link Reverter"></bt:String>
+        <bt:String id="MyDescription" DefaultValue="Safe-Link Reverter reverts safe links to original links."/>
+        <bt:String id="MyGroupTip" DefaultValue="Safe-Link Reverter"></bt:String>
+        <bt:String id="MyButtonSuperTipDescription" DefaultValue="Safe-Link Reverter"></bt:String>
       </bt:LongStrings>
     </Resources>
   </VersionOverrides>
