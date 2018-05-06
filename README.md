@@ -1,17 +1,21 @@
 Submission: SafeLink Reverter
 ===========================
-Done
+Work
 ------------
 - Cross-platform Outlook add-in to convert safe links to original links
-- Side panel to show results (number of links in email, safe links converted, link texts)
+- Task pane to show results (number of links in email, safe links converted, link texts)
 - Convert safe links to original links
-- Tested locally (the button took a minute to appear but it worked)
+- Tested locally on Outlook Windows and Outlook Web (the button took a minute to appear but it worked)
 
-Not Done
+Not Work
 ------------
-- Replace safe links with original links in the email (I am still stuck on modifying the DOM of the email versus the DOM of my add-in side panel)
+- Replace safe links with original links in the email (I am still stuck on modifying the DOM of the email versus the DOM of my add-in task pane --> UPDATE: cannot modify the DOM in Read mode as bound by Office object so users only have one choice to click on the links in the task pane)
+- Convert links in plain text emails as Outlook does something strange to the body text and JavaScript methods like indexOf, substr, search don't work as we would expect
+
+Future
+------------
 - Implement other safe link decryption methods 
-- Test the add-in on desktop and mobile
+- Test the add-in on desktop and mobile 
 - Deploy the add-in to a web server
 
 Result
