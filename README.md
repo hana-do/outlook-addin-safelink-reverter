@@ -5,7 +5,8 @@ Work
 - Cross-platform Outlook add-in to convert safe links to original links
 - Task pane to show results (number of links in email, safe links converted, link texts)
 - Convert safe links to original links
-- Tested locally on Outlook Windows and Outlook Web (the button took a minute to appear but it worked)
+- Tested on Outlook Windows and Outlook Web
+- Deployed the add-in to a web server --> Download the manifest SafelinkReverter/SafelinkReverterManifest/SafelinkReverter.xml and add to Outlook to use
 
 Not Work
 ------------
@@ -15,12 +16,11 @@ Not Work
 Future
 ------------
 - Implement other safe link decryption methods 
-- Test the add-in on desktop and mobile 
-- Deploy the add-in to a web server
+- Test the add-in on mobile 
 
 Result
 ------------
-You can see in the screenshot that there is a button to click on to use the add-in. Once the button is clicked, the side bar will appear along with the results. You can see at the left bottom corner that the link embedded in the text is still the safe link as I have yet to figure that out.
+You can see in the screenshot that there is a button to click on to use the add-in. Once the button is clicked, the side bar will appear along with the results. You can see at the left bottom corner that the link embedded in the text is still the safe link as the DOM cannot be modified in Read mode in this approach.
 
 ![Screenshot](https://github.com/it483-spring-18/assignment-15-javascript-game-hana-do/blob/master/Screenshot.png)
 
